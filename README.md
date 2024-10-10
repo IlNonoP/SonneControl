@@ -27,11 +27,11 @@ Installation is not very complex
 
 #### Windows:
 ```bash
-  pip install tkinter pillow cryptography pyinput pygame pyautogui discord
+  pip install tkinter pillow cryptography pyinput pygame pyautogui discord requests
 ```
 #### GNU/Linux:
 ```bash
-  pip install pillow cryptography pyinput pygame pyautogui discord
+  pip install pillow cryptography pyinput pygame pyautogui discord requests
 ```
 In linux you must install "Gnome-screenshot" and "tk" whit your package manager
 
