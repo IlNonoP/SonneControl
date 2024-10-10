@@ -79,7 +79,7 @@ WARNING: You must be on windows in order to create the executable, otherwise a n
 
 3) After a check on the dependencies, the program will compile the program according to what you requested
 
-4) Once finished you can find it in the “version” folder
+4) Once finished you can find it in the “dist” folder
 
 
 
