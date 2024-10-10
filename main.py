@@ -294,7 +294,7 @@ async def on_message(message):
 
     elif comando.startswith("network "):
         if comando == "network help":
-            await message.channel.send("This command manages the network\nnetwrok interface | Show network interfaces")
+            await message.channel.send("This command manages the network\nnetwrok interface | Show network interfaces\nnetwork ip | Show pubblic IP of the remote\nnetwork help | Show this guide")
         elif "interface" in comando:
             interfacce = socket.if_nameindex()
             interfacce = '\n'.join([f'{inter[0]}: {inter[1]}' for inter in interfacce])
