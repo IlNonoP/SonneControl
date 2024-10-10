@@ -395,7 +395,7 @@ async def on_message(message):
                     
                     
 
-        elif comando.startswith("camera "):
+        elif comando.startswith("system camera "):
             if "take" in comando:
                 pygame.camera.init()
                 camlist = pygame.camera.list_cameras()   
