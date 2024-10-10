@@ -74,12 +74,14 @@ Yes, you can turn the python script into an executable and run it on computers e
 WARNING: You must be on windows in order to create the executable, otherwise a non-windows file will be created
 
 1) Open a terminal in the path of the file main.py
+   
+2) Make sure you have all dopendencies installed, this will only serve the compile computer, not on the final executor (see step 4)
 
-2) Download the file “windows compiler.bat” into it and run it
+3) Download the file “windows compiler.bat” into it and run it
 
-3) After a check on the dependencies, the program will compile the program according to what you requested
+4) The program will compile the program according to what you requested
 
-4) Once finished you can find it in the “dist” folder
+5) Once finished you can find it in the “dist” folder
 
 
 
