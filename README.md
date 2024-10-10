@@ -46,3 +46,42 @@ In linux you must install "Gnome-screenshot" and "tk" whit your package manager
 
     
 ## Commands
+Available commands:
+ls        | show files in current directory
+
+cd        | change directory
+
+cmd       | execute command in console
+
+ping      | Pong!
+
+file      | File management 
+
+message   | show message on screen
+
+network   | Commands on network
+
+system    | Operations on hardaware (like cam and keyboard)
+
+To send a file upload it to the channel and it will be downloaded
+
+#### N.B.: Each command can be deepened by writing “help” at the end 
+
+
+## How to compile it into a windows executable
+Yes, you can turn the python script into an executable and run it on computers even without python!
+
+WARNING: You must be on windows in order to create the executable, otherwise a non-windows file will be created
+
+1) Open a terminal in the path of the file main.py
+
+2) Download the file “windows compiler.bat” into it and run it
+
+3) After a check on the dependencies, the program will compile the program according to what you requested
+
+4) Once finished you can find it in the “version” folder
+
+
+
+## Responsabilità
+This program is made for the purpose of managing OWN devices and is useful for those who do not have a public IP address to connect, I take no responsibility in case the code is used maliciously, USE IT ONLY ON YOUR MACHINES! Controlling without consent computers that are not yours is a crime!
